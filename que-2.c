@@ -1,6 +1,6 @@
 
 /* develop a c program that reads sentence from the user. Create a function 
-	to count the occurrences of each consonant  in the sentence and display the count */
+	to count the occurrences of each consonant  in the sentence and display the count*/
  
 #include <stdio.h>
 
