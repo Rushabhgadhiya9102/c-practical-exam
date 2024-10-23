@@ -11,7 +11,7 @@ char counter( char string[1000]){
 	char alpha;
 	int count, i;
 	
-	for(alpha = 'a' ,alpha = 'A'; alpha <='z', alpha <='Z'; alpha++){
+	for(alpha = 'a'; alpha <='z'; alpha++){
 		count = 0;
 		
 		for(i=0; string[i] != '\0'; i++){
@@ -24,7 +24,7 @@ char counter( char string[1000]){
 		
 		if(count>0){
 			
-			if(alpha !='a' && alpha != 'e' && alpha != 'i' && alpha != 'o' && alpha != 'u' && alpha !='A' && alpha != 'E' && alpha != 'I' && alpha != 'O' && alpha != 'U'){
+			if(alpha !='a' && alpha != 'e' && alpha != 'i' && alpha != 'o' && alpha != 'u'){
 				printf("%c : %d\n", alpha,count);
 			}
 		}
